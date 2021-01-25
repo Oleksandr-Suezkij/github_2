@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+}
+
+.body-margin {
+	margin: 9px;
+	margin-top: 47px;
+}
+
+.text-input {
+	background: #e6e6e6;
+	color: #808080;
+	height: 62px;
+	width: 803px;
+	border-radius: 7px;
+	border: 2px #808080 solid;
+	margin-bottom: 38px;
+	margin-top: 15px;
+	display: block;
+}
+
+.privacy-anchor {
+	text-decoration: none;
+}
+
+.radio-button, .check-button {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.caption-one {
+	font-size: 34.2px;
+	margin-bottom: 57px;
+	font-family: arial;
+	letter-spacing: 1px;
+}
+
+.country-select {
+	width: 803px;
+	height: 102px;
+	margin-bottom: 45px;
+}
+
+.your-country {
+	margin-bottom: 15px;
+}
+
+.caption-two {
+	margin-bottom: 22px;
+	font-size: 13px;
+}
+
+.text-area {
+	margin-bottom: 20px;
+	border-radius: 7px;
+	width: 803px;
+	background: #e6e6e6;
+	display: block;
+	margin-top: 15px;
+}
+
+.check-button {
+	margin-bottom: 47px;
+}
+
+.text-clear {
+	background: #e6e6e6;
+	color: #808080;
+	width: 360px;
+	height: 75px;
+	border-radius: 7px;
+	font-size: 20px;
+}
+
+.text-submit {
+	width: 360px;
+	height: 75px;
+	background: #000000;
+	color: #fff;
+	border-radius: 7px;
+	font-size: 20px;
+	margin-left: 83px;
+}
+
+.comments-box {
+	margin-top: 40px;
+}
+

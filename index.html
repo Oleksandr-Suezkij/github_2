@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Homework 5</title>
+	    <link rel="stylesheet" href="styles.css">
+	</head>
+	<body class="body-margin">
+		<form action="" method="post">
+			<p class="caption-one">Please fill out the form below</p>
+			<div>
+			  	<label for="username">Full name</label>
+			  	<input class="text-input" type="text" id="username" name="name">
+	  		</div>
+			<div>
+				<label for="email">Your e-mail address</label>
+				<input class="text-input" type="email" id="email" name="email">
+			</div>
+			<div>
+				<label for="number">Your phone number</label>
+				<input class="text-input" type="number" id="number" name="phone number">
+			</div>
+			<div>
+				<p class="your-country">Select your country</p>
+				<select class="country-select" name="select" id="select">
+					<option value="">UK</option>
+					<option value="">RU</option>
+					<option value="">ENG</option>
+				</select>
+			</div>
+			<p class="caption-two">I want to attend event</p>
+			<div>
+				<input type="radio" id="option1" name="radio" checked>
+	  			<label class="radio-button" for="option1">online</label>
+			</div>
+			<div>
+				<input type="radio" id="option2" name="radio">
+	  			<label class="radio-button" for="option2">offline</label>
+			</div>
+			<div class="comments-box">
+				<label class="comments-caption" for="comments" id="comments">Comments</label>
+				<textarea class="text-area" id="comments" rows="5" cols="30"></textarea>
+			</div>
+			<div>
+				<input type="checkbox" id="check" name="checkbox">
+				<label class="check-button" for="check" >I agree with <a class="privacy-anchor" href="https://contently.com/privacy-policy/">the privacy policy</a> </label>
+			</div>
+			<div>
+				<input class="text-clear" type="reset" value="Clear form">
+				<button class="text-submit" type="submit">Submit form</button>
+			</div>
+		</form>
+	</body>
+</html>
+
